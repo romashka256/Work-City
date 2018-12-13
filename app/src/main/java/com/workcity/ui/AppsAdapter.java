@@ -35,7 +35,7 @@ public class AppsAdapter extends RecyclerView.Adapter<AppsAdapter.AppsVH> {
 
     @Override
     public void onBindViewHolder(@NonNull AppsVH appsVH, int i) {
-        appsVH.mAppName.setText(appPOJOList.get(i).getAppName());
+        //     appsVH.mAppName.setText(appPOJOList.get(i).appName);
 
     }
 
@@ -54,7 +54,7 @@ public class AppsAdapter extends RecyclerView.Adapter<AppsAdapter.AppsVH> {
         public AppsVH(@NonNull View itemView) {
             super(itemView);
 
-            ButterKnife.bind(this, itemView);
+            //    ButterKnife.bind(this, itemView);
         }
     }
 }
